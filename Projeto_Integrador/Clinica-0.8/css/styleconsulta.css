@@ -1,0 +1,74 @@
+body{
+	margin: 0;
+	font-family: Arial;
+	background-image: url(consulta.jpg);
+	background-size: cover;
+}
+#container{
+	width: 500px;
+	margin: 25px auto;
+	box-sizing: border-box;
+	padding: 100px;
+	background-color: RGBA(0,0,0,0.7);
+	display: flex;
+	color: #eee;
+	height: 800px;
+	
+}
+#topo{
+	text-align: center;
+	margin-top: -80px;
+	margin-left: 50px;
+	
+}
+input[type=submit]{	
+margin-left: 80px;	
+}
+input[type=reset]{
+	
+}
+
+label{
+	display: block;
+	margin-top: 10px;
+
+}
+
+.cadastro{
+	margin-left: -280px;
+}
+.form{
+	background-color: RGBA(0,0,0,0);
+	border: none;
+	border-bottom: solid 1px #eee;
+	color: #eee;
+	display: block;
+	width: 90%;
+	margin: 0px 0px;
+	
+}
+.botaosalvar{
+	margin-left: 20px !important;
+	background-color: RGBA(0,0,0,0);
+	border: solid 1px #eee;
+	color: #eee;
+	
+}
+.botaolimpar{
+	margin-left: 20px;
+	background-color: RGBA(0,0,0,0);
+	border: solid 1px #eee;
+	color: #eee;
+}
+.voltar{
+	margin-left: 20px;
+	background-color: RGBA(0,0,0,0);
+	border: solid 1px #eee;
+	color: #eee;
+	
+}
+.sair{
+	background-color: RGBA(0,0,0,0);
+	border: solid 1px #eee;
+	color: #eee;
+	}
