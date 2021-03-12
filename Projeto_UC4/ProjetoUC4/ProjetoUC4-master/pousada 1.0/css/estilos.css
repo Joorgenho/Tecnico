@@ -1,0 +1,111 @@
+body{
+	background-color: #fff; /* cor de fundo do site */
+	margin: 0; /* tira as mergens da página */
+	font-family: arial; /* define a fonte da pagina */
+}
+.container{
+	width: 960px;
+	background-color: #fff; /* cor de fundo do container */
+	margin: auto; /* centraliza o container */	
+}
+#banner{
+	height: 300px; /*altura do banner*/
+	
+}
+#menu{
+		background: #fff;/* colorzilla fundo gradiente para o menu */
+}
+#menu ul{
+	margin: 0; /* retira as margens */
+	padding: 0; /* retira os recuos*/
+	list-style-type: none; /* retira o marcador da lista */
+}
+#menu li{
+	display: inline; /* deixa a lista na horizontal */
+}	
+#menu a{
+	width: 150px; /* define a largura */
+	text-align: center; /*centraliza o texto */
+	color: #008b45; /* cor da letra */
+	text-decoration: none;  /*retira o sublinhado */
+	margin: 80px 40px ; /* aumenta a margem vertical */
+	font-weight: bold; /* deixa em negrito */
+}	
+#menu a: hover{
+	color: #000; /*muda a cor quando passa o mouse */
+}
+#topo{
+	background-color: #fff;
+	padding: 20px 60px; /* recuo vertical (20) e horizontal (30) */
+	text-align: center;
+	color: #008b45;
+}
+div.figure {
+	float: center;	
+	border: thin silver solid;
+	margin: 0.5em;
+	padding: 0.5em;
+	text-align: center;
+	font-style: italic;
+	font-size: smaller;
+	text-indent: 0;
+	text-align: center;
+}
+img.scaled {
+	
+    margin-left: auto;
+    margin-right: auto;
+}
+.rodape{
+	background-color: #000;
+	color: #eee;
+	text-align: center;
+	margin: 100px 0 0 0;
+	padding: 40px;
+}
+.fotos{
+	width: 360px;
+	background-color: #fff; 
+	margin: auto; 
+}
+.coluna{
+	flex: 1;
+	padding: 80px;
+	margin: auto;
+	text-align: center;
+	color: #008b45;
+	font-size: 25px;
+}
+.texto{
+	text-align: center;
+	color: #008b45;
+	font-size: 40px;
+}
+.fotos{
+	text-align: center;
+	width: 349px;
+	height: 276px;
+}
+.contato fieldset{
+	width: 400px;
+	margin: 20px auto;
+	box-sizing: border-box;
+	padding: 25px 50px;	
+}
+.contato legend{
+	font-size: 24px;
+}
+.contato .forms, .contato textarea{
+	width: 95%;
+	margin: 10px 0;
+	font-size: 18px;
+	padding: 4px;
+	border: solid 1px #666;
+	border-radius: 4px;	
+}
+.contato textarea{
+	font-family: 'Ubuntu', serif;
+	font-size: 18.6px;
+	height: 200px;	
+	resize: none 
+}
