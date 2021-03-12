@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+	font-family: Arial;
+	background-size: cover;
+}
+#container{
+	width: 500px;
+	margin: 150px auto;
+	box-sizing: border-box;
+	padding: 100px;
+	background-color: RGBA(0,0,0,0.7);
+	display: flex;
+	color: #eee;
+}
+#botaologar{
+	flex: 1;
+	padding-right: 25px;
+	margin-left: 30px;
+}
+#botaocadastrar{
+	flex: 1;
+	padding-left: 10px;
+	margin-top: 195px;
+	
+}
+#botaosair{
+	margin-top: 240px;
+	margin-left: 50px;
+}
+.form{
+	background-color: RGBA(0,0,0,0);
+	border: none;
+	border-bottom: solid 1px #eee;
+	color: #eee;
+	display: block;
+	width: 190px;
+	margin: 30px 0px;
+}
+input[type=submit]{
+	display: block;
+	background-color: RGBA(0,0,0,0);
+	border: solid 1px #eee;
+	padding: 5px 10px;
+	color: #eee;
+	margin-top: 30px;
+}
+input[type=checkbox]{
+	background-color: RGBA(0,0,0,0);
+	border: solid 1px #eee;
+}
+label{
+	font-size: 12px;
+
+}
