@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	font-family: Arial;
+	background-size: cover;
+}
+#container{
+	width: 500px;
+	margin: 150px auto;
+	box-sizing: border-box;
+	padding: 100px;
+	background-color: RGBA(0,0,0,0.7);
+	color: #eee;
+}
+
+.form{
+	background-color: RGBA(0,0,0,0);
+	border: none;
+	border-bottom: solid 1px #eee;
+	color: #eee;
+	display: block;
+	width: 90%;
+	margin: 30px 0px;
+}
+.entrar, .cadastrar, .sair{
+	background-color: RGBA(0,0,0,0);
+	border: solid 1px #eee;
+	padding: 5px 10px;
+	color: #eee;
+	margin-top: 30px;
+}
+input[type=checkbox]{
+	background-color: RGBA(0,0,0,0);
+	border: solid 1px #eee;
+	}
+label{
+	font-size: 12px;
+
+}
+.cadastrar{
+	display: inline;	
+}
